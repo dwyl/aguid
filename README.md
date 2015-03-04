@@ -16,9 +16,14 @@ http://tools.ietf.org/html/rfc4122
 
 + Hex to Base64 and back:
 http://stackoverflow.com/questions/23190056/hex-to-base64-converter-for-javascript
++ Snowflake approach:
+http://blog.tompawlak.org/generate-unique-identifier-nodejs-javascript
++ GUIDs using Math.random() https://gist.github.com/jed/982883
 
-### Others
+### Dependency
 
-+ **node-uuid** is the most popular:
+Instead of trying to re-invent this, I invested the time to read,
+download and play with the source-code
+for **node-uuid** (the most popular & *performant* module for creating GUIDs):
 https://github.com/broofa/node-uuid
-Has *phenomenal* ***performance***
+See: [#3](https://github.com/ideaq/aguid/issues/3)
