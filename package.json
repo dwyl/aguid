@@ -1,6 +1,6 @@
 {
   "name": "aguid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Standard-Compliant Globally Unique IDentifier (GUID) generator for Node.js and Browser",
   "main": "lib/index.js",
   "scripts": {
