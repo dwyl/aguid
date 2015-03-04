@@ -1,6 +1,6 @@
 {
   "name": "aguid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Standard-Compliant Globally Unique IDentifier (GUID) generator for Node.js and Browser",
   "main": "lib/index.js",
   "scripts": {
@@ -39,5 +39,10 @@
   },
   "engines": {
     "node": ">=0.10"
-  }
+  },
+  "pre-commit": [
+    "jshint",
+    "coverage",
+    "codeclimate"
+  ]
 }
