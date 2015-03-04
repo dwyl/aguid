@@ -26,6 +26,7 @@ but don't want use a *username* or *email* as the ***key*** for the record.
 We solved this by creating a UUID (string) from the username or email address
 and using that instead. (see usage below)
 
+
 ## Usage
 
 ### Install
@@ -34,16 +35,20 @@ and using that instead. (see usage below)
 npm install aguid --save
 ```
 
-### Generate a Consisten GUID given an input
+### Generate a Deterministic GUID given an input
 
 ```javascript
 var aguid = require('aguid');
-
-var email = "hello@world.io";
-var guid  = aguid(email); // d828ed52-32ed-4908-86df-df934d3c315d (ALWAYS)
+var guid  = aguid("hello@world.io"); // d828ed52-32ed-4908-86df-df934d3c315d (ALWAYS)
 // use the guid as the key for our record in Redis, ElasticSearch, Postgres, etc.
 
 ```
+
+***Note***: even though the GUID we are returning for a given input is *deterministic*,
+it's *still* ***globally unique*** because we are using SHA256 hash for the characters.
+and in our *specific* use-case we are hashing an email address
+(which is its' self *unique* be *definition*!)
+
 
 ### Generate a *Random* GUID when invoked without argument
 
