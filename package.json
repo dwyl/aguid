@@ -1,17 +1,16 @@
 {
   "name": "aguid",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Standard-Compliant Globally Unique IDentifier (GUID) generator for Node.js and Browser",
   "main": "lib/index.js",
   "scripts": {
     "test": "node ./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js | node_modules/tap-spec/bin/cmd.js",
-    "codeclimate": "CODECLIMATE_REPO_TOKEN=479304052e859fa028ec2c8400e4dde51f1b89b3db70c51d7f7b32134c7f221e ./node_modules/codeclimate-test-reporter/bin/codeclimate.js < ./coverage/lcov.info",
     "coverage": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js && ./node_modules/.bin/istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100",
     "jshint": "./node_modules/jshint/bin/jshint -c .jshintrc --exclude-path .gitignore ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ideaq/aguid.git"
+    "url": "https://github.com/dwyl/aguid.git"
   },
   "keywords": [
     "RFC4122",
@@ -23,26 +22,24 @@
   "author": "@nelsonic <contact.nelsonic@gmail.com> (https://github.com/nelsonic)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ideaq/aguid/issues"
+    "url": "https://github.com/dwyl/aguid/issues"
   },
-  "homepage": "https://github.com/ideaq/aguid",
+  "homepage": "https://github.com/dwyl/aguid",
   "dependencies": {
-    "node-uuid": "^1.4.2"
+    "node-uuid": "^1.4.7"
   },
   "devDependencies": {
-    "codeclimate-test-reporter": "0.0.4",
-    "istanbul": "^0.3.4",
-    "jshint": "^2.5.10",
-    "pre-commit": "0.0.9",
-    "tap-spec": "^2.2.1",
-    "tape": "^3.5.0"
+    "istanbul": "^0.4.0",
+    "jshint": "^2.8.0",
+    "pre-commit": "1.1.2",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.2"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=4.0"
   },
   "pre-commit": [
     "jshint",
-    "coverage",
-    "codeclimate"
+    "coverage"
   ]
 }
