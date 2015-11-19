@@ -5,8 +5,8 @@ A **G**lobally **U**nique **ID**entifier (GUID) generator in JS.
 [![Node.js Version][node-version-image]][node-version-url]
 [![NPM Version][npm-image]][npm-url]
 [![Build Status](https://travis-ci.org/dwyl/aguid.svg)](https://travis-ci.org/dwyl/aguid)
+[![codecov.io](https://codecov.io/github/dwyl/aguid/coverage.svg?branch=master)](https://codecov.io/github/dwyl/aguid?branch=master)
 [![Code Climate](https://codeclimate.com/github/dwyl/aguid/badges/gpa.svg)](https://codeclimate.com/github/dwyl/aguid)
-[![Test Coverage](https://codeclimate.com/github/dwyl/aguid/badges/coverage.svg)](https://codeclimate.com/github/dwyl/aguid)
 [![Dependency Status](https://david-dm.org/dwyl/aguid.svg)](https://david-dm.org/dwyl/aguid)
 
 ## Why?
