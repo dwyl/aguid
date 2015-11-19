@@ -1,6 +1,6 @@
 {
   "name": "aguid",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Standard-Compliant Globally Unique IDentifier (GUID) generator for Node.js and Browser",
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ideaq/aguid.git"
+    "url": "https://github.com/dwyl/aguid.git"
   },
   "keywords": [
     "RFC4122",
@@ -23,9 +23,9 @@
   "author": "@nelsonic <contact.nelsonic@gmail.com> (https://github.com/nelsonic)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ideaq/aguid/issues"
+    "url": "https://github.com/dwyl/aguid/issues"
   },
-  "homepage": "https://github.com/ideaq/aguid",
+  "homepage": "https://github.com/dwyl/aguid",
   "dependencies": {
     "node-uuid": "^1.4.2"
   },

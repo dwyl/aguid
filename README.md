@@ -4,10 +4,10 @@ A **G**lobally **U**nique **ID**entifier (GUID) generator in JS.
 
 [![Node.js Version][node-version-image]][node-version-url]
 [![NPM Version][npm-image]][npm-url]
-[![Build Status](https://travis-ci.org/ideaq/aguid.svg)](https://travis-ci.org/ideaq/aguid)
-[![Code Climate](https://codeclimate.com/github/ideaq/aguid/badges/gpa.svg)](https://codeclimate.com/github/ideaq/aguid)
-[![Test Coverage](https://codeclimate.com/github/ideaq/aguid/badges/coverage.svg)](https://codeclimate.com/github/ideaq/aguid)
-[![Dependency Status](https://david-dm.org/ideaq/aguid.svg)](https://david-dm.org/ideaq/aguid)
+[![Build Status](https://travis-ci.org/dwyl/aguid.svg)](https://travis-ci.org/dwyl/aguid)
+[![Code Climate](https://codeclimate.com/github/dwyl/aguid/badges/gpa.svg)](https://codeclimate.com/github/dwyl/aguid)
+[![Test Coverage](https://codeclimate.com/github/dwyl/aguid/badges/coverage.svg)](https://codeclimate.com/github/dwyl/aguid)
+[![Dependency Status](https://david-dm.org/dwyl/aguid.svg)](https://david-dm.org/dwyl/aguid)
 
 ## Why?
 
@@ -85,7 +85,7 @@ Instead of trying to re-invent this, I invested the time to read,
 download and play with the source-code
 for **node-uuid** (the most popular & *performant* module for creating GUIDs):
 https://github.com/broofa/node-uuid
-See: [#3](https://github.com/ideaq/aguid/issues/3)
+See: [#3](https://github.com/dwyl/aguid/issues/3)
 
 [node-version-image]: https://img.shields.io/node/v/aguid.svg?style=flat
 [node-version-url]: http://nodejs.org/download/
