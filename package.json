@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/dwyl/aguid",
   "dependencies": {
-    "node-uuid": "^1.4.7"
+    "uuid": "^3.0.1"
   },
   "devDependencies": {
     "istanbul": "^0.4.0",
