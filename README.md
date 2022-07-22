@@ -15,7 +15,7 @@ There are already *great* **node** module(s) for generating *random* UUIDs:
 https://www.npmjs.com/search?q=uuid
 
 What we need is a way to return the *same* UUID/GUID for a *given* input string;
-i.e. [***Deterministic***](http://en.wikipedia.org/wiki/Deterministic_system) !
+i.e. [***Deterministic***](https://en.wikipedia.org/wiki/Deterministic_system) !
 
 ### Use Case
 
@@ -65,18 +65,18 @@ var guid  = aguid(); // 525be54a-1101-46bf-97d7-2e9c89dd1b16 (*Random*)
 ### Background
 
 + Wikipedia UUID (*gentler* intro):
-http://en.wikipedia.org/wiki/Universally_unique_identifier
+https://en.wikipedia.org/wiki/Universally_unique_identifier
 + Universally Unique IDentifier (UUID) Specification:
-http://tools.ietf.org/html/rfc4122
+https://tools.ietf.org/html/rfc4122
 + V.4 *Random* UUID:
-http://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_.28random.29
+https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_.28random.29
 
 ### Implementation
 
 + Hex to Base64 and back:
-http://stackoverflow.com/questions/23190056/hex-to-base64-converter-for-javascript
+https://stackoverflow.com/questions/23190056/hex-to-base64-converter-for-javascript
 + Snowflake approach:
-http://blog.tompawlak.org/generate-unique-identifier-nodejs-javascript
+https://blog.tompawlak.org/generate-unique-identifier-nodejs-javascript
 + GUIDs using Math.random() https://gist.github.com/jed/982883
 
 ### Dependency
@@ -88,6 +88,6 @@ https://github.com/broofa/node-uuid
 See: [#3](https://github.com/dwyl/aguid/issues/3)
 
 [node-version-image]: https://img.shields.io/node/v/aguid.svg?style=flat
-[node-version-url]: http://nodejs.org/download/
+[node-version-url]: https://nodejs.org/download/
 [npm-image]: https://img.shields.io/npm/v/aguid.svg?style=flat
 [npm-url]: https://npmjs.org/package/aguid

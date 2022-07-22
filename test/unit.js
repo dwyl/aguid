@@ -3,7 +3,7 @@ var test  = require('tape');
 
 function validate(guid, t) {
   var parts = guid.split('-');
-  // http://stackoverflow.com/questions/10687505/uuid-format-8-4-4-4-12-why
+  // https://stackoverflow.com/questions/10687505/uuid-format-8-4-4-4-12-why
   t.equal(parts[0].length, 8, "First part is 8 characters");
   t.equal(parts[1].length, 4, "First part is 4 characters");
   t.equal(parts[2].length, 4, "First part is 4 characters");
